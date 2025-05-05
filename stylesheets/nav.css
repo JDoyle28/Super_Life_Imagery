@@ -97,42 +97,33 @@ footer {
     margin: 0px -1px;
 }
 
-@media (max-width: 800px) {
-    .nav {
-        display: none;
-    }
-}
+
 
 
 .parallax {
     background-image: url(../images/bck_6.jpg);
     image-rendering: crisp-edges;
-    background-size: cover;
-
+    background-size: 90%;
     /* Set a specific height */
-    min-height: 600px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    min-height: 800px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
   }
 
 
   .parallax2 {
-    background-image: url(../images/bck_6.jpg);
+    background-image: url(../images/antelope.JPG);
     image-rendering: crisp-edges;
     background-size: cover;
 
     /* Set a specific height */
-    min-height: 600px; 
+    min-height: 500px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 50%;
   }
 
   .between{
@@ -148,3 +139,38 @@ footer {
     color: gray;
     font-size:20px
   }
+
+
+@media (min-width: 1000px) {
+    .parallax {
+        background-image: url(../images/bck_6.jpg);
+        image-rendering: crisp-edges;
+        background-size: 90%;
+        /* Set a specific height */
+        min-height: 800px;
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+         
+      
+        /* Create the parallax scrolling effect */
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      
+    .parallax2 {
+        background-image: url(../images/antelope.JPG);
+        image-rendering: crisp-edges;
+        background-size: 90%;
+        /* Set a specific height */
+        min-height: 800px;
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+         
+      
+        /* Create the parallax scrolling effect */
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+}
