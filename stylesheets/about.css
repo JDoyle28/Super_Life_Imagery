@@ -27,9 +27,21 @@ p {
 
 .about {
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.25);
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 0.63);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.63);
 }
+
+.layeredbox {
+    box-shadow:
+      0 1px 1px hsla(0, 0%, 100%, 0.765),
+      0 2px 2px hsla(0, 0%, 100%, 0.695),
+      0 4px 4px hsla(0, 0%, 100%, 0.719),
+      0 8px 8px hsla(0, 0%, 100%, 0.796),
+      0 16px 16px hsla(0, 0%, 100%, 0.609)
+    ;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.63);
+  }
 
 .docs {
     display: flex;
