@@ -111,20 +111,15 @@ footer {
   }
 
 
-  .parallax2 {
+.parallax2 {
     background-image: url(../images/antelope.JPG);
     image-rendering: crisp-edges;
-    background-size: cover;
-
+    background-size: 90%;
     /* Set a specific height */
-    min-height: 500px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    min-height: 800px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 50%;
-  }
+}
 
   .between{
     height: auto;

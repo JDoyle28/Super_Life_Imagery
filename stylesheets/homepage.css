@@ -3,12 +3,14 @@
 }
 
 h1 {
+    color: white;
     text-align: center;
     margin-top: 4px;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Palanquin';
     text-decoration: underline;
     text-decoration: overline;
+    transition: width 2s;
 }
 
 h2 {
@@ -257,3 +259,42 @@ img {
         width: 30%;
     }
 }
+
+.transform-info {
+    display: flex;
+}
+
+.transform-info:hover{
+    transform:translateX(-180px);
+    transition-duration: 3s;
+    transition-delay: 10ms;
+    opacity: 1; /* Show the text */ 
+    visibility: visible; /* Allows interaction */ 
+}
+
+.container { 
+    position: relative; 
+    display: inline-block; 
+} 
+ 
+.hidden-text { 
+    margin-left: 2rem;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 20vw;
+    opacity: 0; /* Initially hidden */ 
+    visibility: hidden; /* Prevents interaction */ 
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition */ 
+    
+} 
+ 
+.transform-info:hover .hidden-text { 
+    margin-left: 2rem;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 20vw;
+    opacity: 1; /* Show the text */ 
+    visibility: visible; /* Allows interaction */ 
+} 
