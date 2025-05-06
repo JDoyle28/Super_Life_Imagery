@@ -106,7 +106,31 @@ h7{
     display: block;
     margin-left: auto;
     margin-right: auto; 
-    
+}
+
+.med-img {
+    width: 60%;
+    display: block;
+    margin-left: 3rem;
+    margin-right: 3rem; 
+}
+
+.great-vibes-left {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    margin-left: 10vw;
+    justify-content: flex-start;
+}
+
+.great-vibes-right {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    margin-right: 10vw;
+    justify-content: flex-end;
 }
 
 .small-img {

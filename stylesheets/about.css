@@ -79,6 +79,7 @@ p {
 }
 
 .team-member {
+    margin-top: 15px;
     display: flex;
     width: 350px;
     height: 350px;
