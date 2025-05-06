@@ -130,6 +130,20 @@ img {
     height: auto;
 }
 
+.trent-pic {
+    height: 250px;
+    width: 250px;
+    transition: width 2s, height 2s, transform 2s;
+    margin-bottom: 20px;
+  }
+  
+.trent-pic:hover {
+    margin-bottom: 25px;
+    width: 300px;
+    height: 300px;
+    transform: skew();
+}
+
 .team-member1 {
     border-style: dashed;
     border-color: white;
@@ -150,7 +164,7 @@ img {
 
 .team-member1 img {
     display: block;
-     margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
 
 }
