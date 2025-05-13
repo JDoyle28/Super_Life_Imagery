@@ -139,13 +139,13 @@ header{
 
   }
   
-  @keyframes example {
-    0%   {background-color:red; left:-200px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:-100px; top:0px;}
-    75%  {background-color:green; left:100px; top:0px;}
-    100% {background-color:red; left:0px; top:0px;}
-  }
+@keyframes example {
+    0%   {color: black; background-color:rgba(196, 196, 196, 0.772); left:-200px; top:0px; }
+    25%  {color: white; background-color:black; left:200px; top:0px;}
+    50%  {color: black; background-color:rgba(196, 196, 196, 0.772); left:-100px; top:0px;}
+    75%  {color: white; background-color:black; left:100px; top:0px;}
+    100% {color: black; background-color:rgba(196, 196, 196, 0.772); left:0px; top:0px;}
+}
 
 
 

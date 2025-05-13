@@ -114,13 +114,21 @@ p {
 }
 
 .trent-pic {
-    width: 250px;
-    height: 200px;
+    height: auto;
+    width: 300px;
     transition: width 2s, height 2s, transform 2s;
+    margin-bottom: 20px;
   }
   
 .trent-pic:hover {
-    width: 250px;
-    height: 200px;
-    transform: rotate(360deg);
+    margin-bottom: 1rem;
+    width: 350px;
+    height: auto;
+    transform: skew();
+}
+
+@media (max-width: 1120px){
+    .special-class{
+        margin-top: 10rem;
+    }
 }
